@@ -1,73 +1,32 @@
-# SkillFactory Projects
+# Учебные проекты SkillFactory
 
-Portfolio of projects completed during SkillFactory courses covering full-stack web development, Python backend, and frontend with React.
+Здесь собраны мои учебные работы по Python, ООП, Django, FastAPI, JavaScript и React. Каждый проект я выполнял **без помощи ИИ**, чтобы самостоятельно разобраться в языке, архитектуре приложений и работе с API. Исходный код остаётся в отдельных репозиториях; этот каталог помогает быстро найти нужную работу.
 
----
+## Основные проекты
 
-## Projects
+| Проект | Что реализовано | Технологии |
+| --- | --- | --- |
+| [Силант](https://github.com/Mladsii/silant_project) (без ИИ) | Сервис учёта техники: публичный поиск по заводскому номеру, кабинеты для разных ролей, работа с машинами, техническим обслуживанием и рекламациями. | Python, FastAPI, Django, SQLAlchemy, PostgreSQL, React |
+| [Каталог рецептов](https://github.com/Mladsii/rec) (без ИИ) | Приложение с категориями и рецептами: Django REST API, документация OpenAPI и отдельный React-интерфейс. | Python, Django, DRF, React |
+| [Интерфейс сервиса проверки уязвимостей](https://github.com/Mladsii/scan_react) (без ИИ) | React-приложение со страницами входа, поиска и результатов; доступ к части маршрутов ограничен авторизацией. | JavaScript, React, React Router |
+| [Новостной портал](https://github.com/Mladsii/skilla) (без ИИ) | Публикации, категории, комментарии, фильтрация и подписки; в коде есть задачи для почтовых уведомлений. | Python, Django, Celery |
+| [Доска объявлений для MMO](https://github.com/Mladsii/mmo_board) (без ИИ) | Объявления по категориям, отклики пользователей и отметка принятого отклика. | Python, Django |
 
-### Web Frontend (React)
+## Небольшие проекты и упражнения
 
-#### [Scan — Security Vulnerability Scanner](https://github.com/Mladsii/scan_react)
-Personal account for a cybersecurity service. Displays vulnerability reports, company stats, and tariff management.
-**Stack:** React, CSS Modules, REST API
+| Проект | Что изучал и сделал | Технологии |
+| --- | --- | --- |
+| [Морской бой](https://github.com/Mladsii/war_chip) (без ИИ) | Консольная игра с кораблями, игровым полем, обработкой выстрелов и соперником; логика разделена на классы. | Python, ООП |
+| [Прогноз погоды](https://github.com/Mladsii/weather_react) (без ИИ) | Поиск города и отображение прогноза через OpenWeather API. | JavaScript, React, API |
+| [Telegram-бот Московского зоопарка](https://github.com/Mladsii/moscow_zoo) (без ИИ) | Бот с вопросами и вариантами ответов, который подбирает животное по результатам анкеты. | Python, pyTelegramBotAPI |
+| [Учебный чат](https://github.com/Mladsii/homeworkE6) (без ИИ) | Сервер чата на Django и клиентская часть на JavaScript. | Python, Django, JavaScript |
+| [Сборка фронтенда](https://github.com/Mladsii/homework-e13) (без ИИ) | Упражнение с Webpack, JavaScript, TypeScript, CSS и настройкой сборки. | JavaScript, TypeScript, Webpack |
+| [Личная HTML-страница](https://github.com/Mladsii/front) (без ИИ) | Страницы «Обо мне», «Хобби» и «Обратная связь» с общей навигацией и стилями. | HTML, CSS, JavaScript |
 
-#### [Weather App](https://github.com/Mladsii/weather_react)
-Weather forecast app with search by city and current conditions display.
-**Stack:** React, OpenWeather API
+## Что показывает эта подборка
 
-#### [Homework E13](https://github.com/Mladsii/homework-e13)
-Frontend exercises covering component architecture and state management in React.
-**Stack:** JavaScript, React
+- **Python и ООП:** модели предметной области, классы, игровые правила, обработка пользовательского ввода.
+- **Backend:** Django и FastAPI, работа с базой данных, REST API, маршруты и права доступа.
+- **Frontend:** React, маршрутизация, формы, запросы к API, базовая сборка проекта.
 
----
-
-### Backend & Full-Stack (Python / Django)
-
-#### [Silant — Machinery Service Platform](https://github.com/Mladsii/silant_project)
-B2B platform for managing maintenance and complaints for industrial machinery. Role-based access: client, service manager, service company.
-**Stack:** Django, Django REST Framework, React, PostgreSQL
-
-#### [Moscow Zoo](https://github.com/Mladsii/moscow_zoo)
-Content management and public-facing pages for a zoo. Animal catalog with filtering.
-**Stack:** Django, Python
-
-#### [MMO Board](https://github.com/Mladsii/mmo_board)
-Bulletin board for an MMO game community — posts, categories, responses with email notifications.
-**Stack:** Django, Celery, SMTP
-
-#### [Rec](https://github.com/Mladsii/rec)
-News aggregator portal with recommendation feed and user subscriptions.
-**Stack:** Django, Python
-
-#### [Front](https://github.com/Mladsii/front)
-Newspaper-style portal frontend integration.
-**Stack:** Python, Django templates
-
----
-
-### Games & Fundamentals (Python)
-
-#### [War Chip — Battleship](https://github.com/Mladsii/war_chip)
-Classic Battleship game in the terminal with AI opponent, grid rendering, and ship placement logic.
-**Stack:** Python (OOP)
-
-#### [Skilla](https://github.com/Mladsii/skilla)
-Landing page for a service platform.
-**Stack:** CSS, HTML
-
-#### [Homework E6](https://github.com/Mladsii/homeworkE6)
-Python fundamentals: data structures, algorithms, OOP exercises.
-**Stack:** Python
-
----
-
-## Skills Covered
-
-- Python OOP, algorithms, data structures
-- Django MVT, ORM, forms, authentication
-- Django REST Framework — serializers, viewsets, permissions
-- React — components, hooks, routing, API integration
-- PostgreSQL, migrations
-- Celery + Redis for async tasks
-- Deployment basics
+Это учебные проекты. Для знакомства с моими AI-разработками смотрите [основной профиль GitHub](https://github.com/Mladsii).
