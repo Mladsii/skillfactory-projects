@@ -1,0 +1,20 @@
+[
+  {
+    "model": "equipment.spravochnik",
+    "pk": 7,
+    "fields": {
+      "entity_name": "ModelSteerableAxle",
+      "name": "Meritor SR-120",
+      "description": "Управляемый мост, стандартная версия"
+    }
+  },
+  {
+    "model": "equipment.spravochnik",
+    "pk": 8,
+    "fields": {
+      "entity_name": "ModelSteerableAxle",
+      "name": "ZF 8052",
+      "description": "Управляемый мост, усиленный"
+    }
+  }
+]

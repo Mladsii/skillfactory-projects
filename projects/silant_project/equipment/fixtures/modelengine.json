@@ -1,0 +1,20 @@
+[
+  {
+    "model": "equipment.spravochnik",
+    "pk": 3,
+    "fields": {
+      "entity_name": "ModelEngine",
+      "name": "Cummins B6.7",
+      "description": "Дизельный двигатель, 6.7 л"
+    }
+  },
+  {
+    "model": "equipment.spravochnik",
+    "pk": 4,
+    "fields": {
+      "entity_name": "ModelEngine",
+      "name": "Yuchai YC6A240",
+      "description": "Китайский аналог, экономичный"
+    }
+  }
+]

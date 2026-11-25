@@ -1,0 +1,20 @@
+[
+  {
+    "model": "equipment.spravochnik",
+    "pk": 1,
+    "fields": {
+      "entity_name": "ModelTechnique",
+      "name": "Погрузчик Силант А",
+      "description": "Базовая модель"
+    }
+  },
+  {
+    "model": "equipment.spravochnik",
+    "pk": 2,
+    "fields": {
+      "entity_name": "ModelTechnique",
+      "name": "Погрузчик Силант Б",
+      "description": "Модель с увеличенной грузоподъёмностью"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "model": "equipment.spravochnik",
+    "pk": 13,
+    "fields": {
+      "entity_name": "FailureNode",
+      "name": "Тормозная система",
+      "description": "Неисправность тормозов"
+    }
+  },
+  {
+    "model": "equipment.spravochnik",
+    "pk": 14,
+    "fields": {
+      "entity_name": "FailureNode",
+      "name": "Гидравлика",
+      "description": "Протечка или засор в системе"
+    }
+  }
+]

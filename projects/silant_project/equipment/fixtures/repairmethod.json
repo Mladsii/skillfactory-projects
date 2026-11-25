@@ -1,0 +1,20 @@
+[
+  {
+    "model": "equipment.spravochnik",
+    "pk": 15,
+    "fields": {
+      "entity_name": "RepairMethod",
+      "name": "Замена узла",
+      "description": "Полная замена вышедшего из строя компонента"
+    }
+  },
+  {
+    "model": "equipment.spravochnik",
+    "pk": 16,
+    "fields": {
+      "entity_name": "RepairMethod",
+      "name": "Ремонт на месте",
+      "description": "Частичный ремонт без демонтажа"
+    }
+  }
+]

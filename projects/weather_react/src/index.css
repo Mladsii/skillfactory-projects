@@ -1,0 +1,95 @@
+/* Общие стили */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.city-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.city-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+.city-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.city-button:hover {
+  background-color: #0056b3;
+}
+
+.forecast {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.current-weather {
+  margin-bottom: 1rem;
+}
+
+.forecast-item {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.forecast-date {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.forecast-temp,
+.forecast-description {
+  margin: 0;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+  .app-title {
+    font-size: 1.5rem;
+  }
+
+  .city-input {
+    max-width: 200px;
+  }
+
+  .forecast {
+    max-width: 300px;
+  }
+}

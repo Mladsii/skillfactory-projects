@@ -1,0 +1,20 @@
+[
+  {
+    "model": "equipment.spravochnik",
+    "pk": 11,
+    "fields": {
+      "entity_name": "MaintenanceType",
+      "name": "ТО-1",
+      "description": "Еженедельное обслуживание"
+    }
+  },
+  {
+    "model": "equipment.spravochnik",
+    "pk": 12,
+    "fields": {
+      "entity_name": "MaintenanceType",
+      "name": "ТО-2",
+      "description": "Ежемесячное обслуживание"
+    }
+  }
+]

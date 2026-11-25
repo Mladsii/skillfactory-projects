@@ -1,0 +1,20 @@
+[
+  {
+    "model": "equipment.spravochnik",
+    "pk": 9,
+    "fields": {
+      "entity_name": "ModelDriveAxle",
+      "name": "Dana Spicer 44-110",
+      "description": "Ведущий мост, стандартная проходимость"
+    }
+  },
+  {
+    "model": "equipment.spravochnik",
+    "pk": 10,
+    "fields": {
+      "entity_name": "ModelDriveAxle",
+      "name": "Meritor HD-210",
+      "description": "Высокопрочный ведущий мост"
+    }
+  }
+]

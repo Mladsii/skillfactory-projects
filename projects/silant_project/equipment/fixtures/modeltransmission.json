@@ -1,0 +1,20 @@
+[
+  {
+    "model": "equipment.spravochnik",
+    "pk": 5,
+    "fields": {
+      "entity_name": "ModelTransmission",
+      "name": "ZF 6HP602C",
+      "description": "Гидромеханическая коробка передач"
+    }
+  },
+  {
+    "model": "equipment.spravochnik",
+    "pk": 6,
+    "fields": {
+      "entity_name": "ModelTransmission",
+      "name": "Allison 3200SP",
+      "description": "Автоматическая КПП"
+    }
+  }
+]

@@ -1,0 +1,111 @@
+/* src/styles/Authorization.css */
+
+.authorization {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Высота страницы */
+  background-color: #f9f9f9; /* Цвет фона */
+}
+
+
+
+.authorization__inner {
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: space-between; /* Разделение элементов */
+  width: 100%;
+}
+
+.authorization__image img {
+  width: 100%;
+  max-width: 500px; /* Максимальная ширина изображения */
+  border-radius: 10px; /* Скругление углов */
+}
+
+.authorization__form {
+  background-color: #ffffff; /* Белый фон для формы */
+  padding: 40px;
+  border-radius: 10px; /* Скругление углов */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для формы */
+  flex: 1; /* Занимает оставшееся пространство */
+}
+
+.authorization__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center; /* Центрирование текста */
+}
+
+.authorization__label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.authorization__input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.authorization__btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #029491; /* Цвет кнопки */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.authorization__btn:hover {
+  background-color: #017a7d; /* Темнее при наведении */
+}
+
+.authorization__forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.authorization__forgot-link {
+  color: #029491;
+  text-decoration: none;
+}
+
+.authorization__forgot-link:hover {
+  text-decoration: underline;
+}
+
+.authorization__social {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.authorization__social-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.authorization__social-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.authorization__social-btn {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.authorization__social-btn img {
+  width: 30px;
+  height: 30px;
+}
